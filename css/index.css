@@ -1,0 +1,328 @@
+@import "base.css";
+.headDiv{
+    width: 1349px;
+    height: 72px;
+    /*background: black;*/
+    position: relative;
+}
+.headDiv-small{
+    width: 1002px;
+    height: 72px;
+    margin:0 auto;
+    background: white;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    left: 0;
+    top:20px;
+}
+.nav{
+    position: absolute;
+    top:0;
+    right:-25px;
+}
+ul{
+    padding: 0;
+    margin:0;
+}
+.nav li{
+    float: left;
+    height: 72px;
+    padding-right: 1px;
+    background: url("../img/nav.gif")  right center no-repeat;
+}
+.nav a{
+    display: block;
+    /*width: 42px;*/
+    height: 72px;
+    padding: 0 24px;
+    font-size: 14px;
+    line-height: 72px;
+    color: black;
+}
+.nav a:hover{
+    color: #146ec4;
+}
+.nav .aNow{
+    background: url("../img/navon.gif") bottom repeat-x;
+    color: #146ec4;
+}
+.nav li:last-child{
+    background: none;
+}
+.sNav{
+    /*width: 104px;*/
+    /*left: 674.5px;*/
+    /*display: none;*/
+    position: absolute;
+    z-index: 100;
+    top: 69px;
+    text-align: center;
+    background: #f9f9f9;
+    border-top: #146ec4 solid 3px;
+    padding: 8px 0;
+}
+.sNav li{
+    padding-bottom: 3px;
+}
+.sNav a{
+    display: block;
+    height: 27px;
+    line-height: 27px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #666;
+}
+.indexFlash{
+    width: 1349px;
+    height: 470px;
+    position: relative;
+    margin-bottom: 17px;
+}
+.tempWrap{
+    overflow: hidden;
+    position: relative;
+    width: 1349px;
+    margin: 0 auto;
+}
+.tempWrap ul{
+    width: 6745px;
+    position: relative;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+   
+}
+.tempWrap ul li{
+    float: left;
+    width: 1349px;
+   
+}
+.tempWrap ul li a{
+    display: block;
+    height: 470px;
+}
+.tempWrap ul li a:hover{
+   color: #146EC4; 
+}
+.btnDiv{
+    position: absolute;
+    z-index: 10;
+    left: 0px;
+    bottom: 17px;
+    width: 100%;
+    text-align: center;
+}
+.btnDiv span{
+    width: 60px;
+    height: 6px;
+    display: inline-block;
+    margin:0 5px;
+    background: url("../img/ico.png") right top no-repeat;
+}
+.btnDiv span.on{
+    background: url("../img/ico.png") left top no-repeat;
+}
+.indexEWM{
+    position: absolute;
+    z-index: 10;
+    right: 50%;
+    margin-right: -501px;
+    top: 421px;
+    text-align: center;
+    background: url("../img/bg1.png");
+    width: 120px;
+    height: 120px;
+    font-size: 14px;
+}
+.indexEWM .img{
+    padding: 19px 0 6px 0;
+}
+.indexEWM .name{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+.wal{
+    width: 1002px;
+    margin: 0 auto;
+}
+.indexNotice{
+    margin-bottom: 22px;
+    height: 38px;
+    line-height: 38px;
+    border: #ccc solid 1px;
+    position: relative;
+}
+.indexNotice .title{
+    position: absolute;
+    left: -1px;
+    top: -1px;
+    padding: 1px;
+    height: 38px;
+    width: 133px;
+    text-align: center;
+    background: #0756b3;
+    font-size: 16px;
+    color: #FFF;
+}
+.wal .tempWrap{
+    overflow: hidden;
+    position: relative;
+    height: 38px;
+    width: 1000px;
+}
+.wal .tempWrap ul{
+    height: 228px;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+.wal .tempWrap ul li{
+    position: relative;
+    height: 38px;
+    padding-left: 152px;
+}
+.wal .tempWrap ul li a{
+    font-size: 14px;
+    color: black;
+
+}
+.wal .tempWrap ul li span{
+    color: #999;
+    position: absolute;
+    left: 600px;
+    top: 0;
+    white-space: nowrap;
+    font-size: 12px;
+}
+.indexNotice .more{
+    display: block;
+    width: 118px;
+    height: 38px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    border-left: #CCC solid 1px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.indexPart1{
+    width: 1002px;
+    height: 253px;
+    overflow: hidden;
+    position: relative;
+    margin:0 auto;
+}
+.indexPart1 ul{
+    width: 120%;
+}
+.indexPart1 li{
+    float: left;
+    position: relative;
+    width: 320px;
+    height: 230px;
+    margin-right: 21px;
+}
+.indexPart1 .imgDiv{
+    width: 320px;
+    height: 230px;
+    overflow: hidden;
+    position: relative;
+}
+.indexPart1 .imgDiv img{
+    display: inline-block;
+    left: 0px;
+    top: 0px;
+    width: 320px;
+    overflow: hidden;
+    position: relative;
+    transition: all .5s;
+
+}
+.indexPart1 .imgDiv img:hover{
+    left: -20px;
+    top: -20px;
+    width: 360px;
+}
+.indexPart1 .name a{
+    display: block;
+    background: url("../img/indexPart1.png") left top no-repeat;
+    width: 138px;
+    height: 230px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    color: #999;
+    text-transform: uppercase;
+    padding-left: 22px;
+    font-size: 12px;
+}
+.indexPart1 .name a div{
+    font-size: 18px;
+    color: #333;
+    padding: 65px 0 10px 0;
+}
+.footLink{
+    margin-bottom: 16px;
+    height: 38px;
+    line-height: 38px;
+    overflow: hidden;
+    border: #CCC solid 1px;
+    padding-left: 148px;
+    position: relative;
+    font-size: 12px;
+}
+.footLink .title{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 38px;
+    text-align: center;
+    width: 133px;
+    border-right: #CCC solid 1px;
+    font-size: 16px;
+    color: #666;
+}
+.footLink a{
+    padding: 0 8px;
+    color: #333333;
+    font-size: 12px;
+}
+.footLink a:hover{
+    color: #146EC4;
+}
+.footNav{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #0756b3;
+}
+.footNav a{
+    color: #FFF;
+    display: inline-block;
+    height: 40px;
+    padding: 0 35px;
+    background: url("../img/footNav.png") right center no-repeat;
+    font-size: 12px;
+}
+.foot{
+    text-align: center;
+    height: 31px;
+    line-height: 31px;
+    color: #666;
+    font-size: 12px;
+}
+.foot a{
+    color: #666;
+    font-size: 12px;
+    padding: 0 15px;
+}
+.foot a:last-child{
+    padding:0;
+}
+.foot a:hover{
+    color: #146ec4;
+}

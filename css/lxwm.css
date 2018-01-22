@@ -1,0 +1,357 @@
+/*
+* @Author: Administrator
+* @Date:   2018-01-16 21:19:12
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-01-16 23:27:49
+*/
+@import url('base.css');
+.selectLayer{
+	position: absolute;
+    z-index: 100;
+    display: none;
+    background: #FFF;
+    border: #bababa solid 1px;
+}
+
+/* 头部开始 */
+.headDiv{
+    width: 1349px;
+    height: 72px;
+    /*background: black;*/
+    position: relative;
+}
+.headDiv-small{
+    width: 1002px;
+    height: 72px;
+    margin:0 auto;
+    background: white;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    left: 0;
+    top:20px;
+}
+.nav{
+    position: absolute;
+    top:0;
+    right:-25px;
+}
+ul{
+    padding: 0;
+    margin:0;
+}
+.nav li{
+    float: left;
+    height: 72px;
+    padding-right: 1px;
+    background: url("../img/nav.gif")  right center no-repeat;
+}
+.nav a{
+    display: block;
+    /*width: 42px;*/
+    height: 72px;
+    padding: 0 24px;
+    font-size: 14px;
+    line-height: 72px;
+    color: black;
+}
+.nav a:hover{
+    color: #146ec4;
+}
+.nav .aNow{
+    background: url("../img/navon.gif") bottom repeat-x;
+    color: #146ec4;
+}
+.nav li:last-child{
+    background: none;
+}
+.sNav{
+    /*width: 104px;*/
+    /*left: 674.5px;*/
+    /*display: none;*/
+    position: absolute;
+    z-index: 100;
+    top: 69px;
+    text-align: center;
+    background: #f9f9f9;
+    border-top: #146ec4 solid 3px;
+    padding: 8px 0;
+}
+.sNav li{
+    padding-bottom: 3px;
+}
+.sNav a{
+    display: block;
+    height: 27px;
+    line-height: 27px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #666;
+}
+/* 头部结束 */
+
+/* banner开始 */
+.pageBanner{
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    background: #dee2eb url("../img/lxwm1.jpg") center top no-repeat;
+}
+/* banner结束 */
+
+/* pageNow开始 */
+.pageNow{
+    background: #f0f0f0;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    text-align: right;
+    color: #666;
+}
+.pageNow .wal{
+    width: 1002px;
+    margin: 0px auto;
+    background: #f0f0f0;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    text-align: right;
+    color: #666;
+    font-size: 12px;
+}
+.pageNow .title{
+	position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 186px;
+    height: 85px;
+    line-height: 1.7em;
+    text-align: center;
+    background: #0756b3;
+}
+.pageNow .title div{
+	font-size: 20px;
+    color: #FFF;
+    padding: 23px 0 10px 0;
+}
+.pageNow .title em{
+	color: #ccc;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: Georgia;
+}
+.pageNow a{
+    line-height: 40px;
+    text-align: right;
+    color: #666;
+    font-size: 12px;
+}
+.wal a:hover{
+	color: blue;
+}
+/* pageNow结束 */
+
+/* wal contact开始 */
+.contact{
+	min-height: 500px;
+    position: relative;
+    width: 1002px;
+    margin: 0px auto;
+}
+.contact .title{
+	font-size: 20px;
+    padding: 35px 0 0 0;
+    height: 37px;
+    background: url('../img/line.gif') bottom repeat-x;
+}
+.contact .img{
+	padding-top: 25px;
+    height: 350px;
+}
+#map{
+	width: 620px;
+    height: 350px;
+    border: 1px solid rgb(204, 204, 204);
+    font-size: 12px;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+    background-color: rgb(243, 241, 236);
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+#map1{
+	overflow: visible;
+    position: absolute;
+    z-index: 0;
+    left: 0px;
+    top: 0px;
+    cursor: url('http://api0.map.bdimg.com/images/openhand.cur') 8 8, default;
+}
+.Bmap-mask{
+	position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 9;
+    overflow: hidden;
+    user-select: none;
+    width: 620px;
+    height: 350px;
+    background: transparent url('http://api0.map.bdimg.com/images/blank.gif');
+}
+.bmap1{
+	position: absolute;
+    height: 0px;
+    width: 0px;
+    left: 0px;
+    top: 0px;
+    z-index: 200;
+}
+
+
+
+.list{
+	width: 280px;
+    height: 290px;
+    padding: 32px 30px 30px 70px;
+    background: #d7c49b;
+    position: absolute;
+    top: 97px;
+    right: 0px;
+    color: #FFF;
+}
+.list li{
+	min-height: 50px;
+    line-height: 50px;
+    position: relative;
+    background: url('../img/contact.gif') bottom repeat-x;
+    padding-left: 56px;
+}
+.list img{
+	position: absolute;
+    left: -35px;
+    top: 13px;
+}
+.list em{
+	font-size: 16px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    white-space: nowrap;
+}
+.list p{
+	font-size: 16px;
+    line-height: 24px;
+    padding: 13px 0;
+}
+.list b{
+	font-size: 20px;
+    font-family: Georgia;
+    font-weight: 400;
+}
+.h20{
+	height: 20px;
+    overflow: hidden;
+    clear: both;
+}
+.fl{
+	width: 492px;
+	float: left;
+}
+.fl li{
+	height: 148px;
+    background: url("../img/fl-1.gif") top repeat-x;
+    padding: 0 18px;
+}
+
+.fl li .name{
+	font-size: 16px;
+    background: url('../img/line (1).gif') bottom repeat-x;
+    padding-top: 8px;
+    height: 40px;
+    line-height: 40px;
+    
+}
+.fl li a{
+	color: #c78d15;
+}
+.fl li .content{
+	font-size: 14px;
+    line-height: 24px;
+    color: #666;
+    padding-top: 8px;
+    display: block;
+}
+.fr{
+	width: 492px;
+	float: right;
+}
+.fr li{
+	height: 148px;
+    background: url("../img/fl-1.gif") top repeat-x;
+    padding: 0 18px;
+}
+.fr li .name{
+	font-size: 16px;
+    background: url('../img/line (1).gif') bottom repeat-x;
+    padding-top: 8px;
+    height: 40px;
+    line-height: 40px;
+}
+.fr li a{
+	color: #c78d15;
+}
+.fr li .content{
+	font-size: 14px;
+    line-height: 24px;
+    color: #666;
+    padding-top: 8px;
+    display: block;
+}
+.h50{
+	height: 50px;
+    overflow: hidden;
+    clear: both;
+}
+/*  wal contact结束*/
+
+/* footNav开始 */
+.footNav{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #0756b3;
+}
+.footNav a{
+    font-size: 12px;
+    color: #FFF;
+    display: inline-block;
+    height: 40px;
+    padding: 0 35px;
+    background: url('../img/footNav.png') right center no-repeat;
+}
+
+/* footNav结束 */
+
+/* foot开始 */
+.foot{
+    text-align: center;
+    height: 31px;
+    line-height: 31px;
+    color: #666;
+    font-size: 12px;
+}
+.foot a{
+    color: #666;
+    font-size: 12px;
+    padding: 0 15px;
+}
+.foot a:last-child{
+    padding:0;
+}
+.foot a:hover{
+    color: #146ec4;
+}
+
+/* foot结束 */
